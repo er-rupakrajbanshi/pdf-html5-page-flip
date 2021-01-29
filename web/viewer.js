@@ -27,7 +27,7 @@
 
 'use strict';
 
-var DEFAULT_URL = 'https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf?fbclid=IwAR0hVBwMNkwXdCv7KcLciGMXyONsmvO-vbvQP00FgWvTcVKz8-OVzPEUwMU';
+var DEFAULT_URL = 'https://www.jianjunchen.com/papers/CORS-USESEC18.slides.pdf';
 // var DEFAULT_URL = '(.*\.pdf)';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
