@@ -27,7 +27,8 @@
 
 'use strict';
 
-var DEFAULT_URL = 'nt-789.pdf';
+var DEFAULT_URL = 'http://himalaya.socanth.cam.ac.uk/collections/journals/nepalitimes/pdf/Nepali_Times_1045.pdf';
+// var DEFAULT_URL = '(.*\.pdf)';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;
