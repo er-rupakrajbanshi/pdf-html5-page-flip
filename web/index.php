@@ -1,77 +1,44 @@
-<!-- <?php include_once("viewer.html"); ?> -->
+<!-- <?php // include_once("viewer.html"); ?> -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Digital Himalaya: Nepali Times </title>
-	<meta name="description" content="a digital archive of multimedia ethnographic information from the Himalayan region (Nepal,Tibet,India)" />
-	<meta name="keywords" content="himalaya, himalayan anthropology, nepal, tibet, indian himalaya, bhutan, sikkim, ethnography, ethnographic digital archive" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="http://www.digitalhimalaya.com/global/style/layout.css" type="text/css" media="all" />
+	<title>Nepali Times</title>
+	<link rel="stylesheet" href="/layout.css" type="text/css" media="all" />
 </head>
 
 <body class="two-col dept">
 	<div id="skip"> <a href="#skip-content" accesskey="2">Skip to content</a></div>
 	<div id="header">
-		<div id="branding"><a href="http://www.cam.ac.uk/" accesskey="1"><img src="http://www.digitalhimalaya.com/graphics/identifier.gif" alt="University of Cambridge" class="ucam" /></a><a href="http://www.ubc.ca/" accesskey="1"><img src="http://www.digitalhimalaya.com/graphics/UBC.jpg" alt="University of British Columbia" width="80" height="60" class="UBC" /></a><a href="http://www.scu.edu.cn/en/" accesskey="1"><img src="http://www.digitalhimalaya.com/graphics/sichuanuniversity.jpg" alt="Sichuan University" width="160" height="60" class="UBC" /></a><a href="http://www.digitalhimalaya.com/" accesskey="1"><img src="  http://www.digitalhimalaya.com/graphics/DH_logo_small.gif" alt="Digital Himalaya" width="108" height="60" class="DigitalHimalaya" /></a> </div>
+		<div id="branding"><a href="http://www.nepalitimes.com/" accesskey="1"><img src="nt-logo.png" alt="NepaliTimes" class="ucam" /></a></div>
 		<div id="site-search">
-			<form action="http://search.cam.ac.uk/web" method="get">
-				<fieldset> <label for="search-term">Search</label> <input name="qt" type="text" id="search-term" accesskey="4" value="" /> <input type="hidden" name="filterTitle" value="Digital Himalaya" /> <input type="hidden" name="include" value="http://www.digitalhimalaya.com" /> <input id="search-button" src="http://www.digitalhimalaya.com/global/images/button-search.gif" value="Search" alt="Search" title="Search" type="image" /> </fieldset>
+			<form action="http://www.google.com" method="get">
+				<label for="search-term">Search</label> <input name="qt" type="text" id="search-term" accesskey="4" value="" /> <input type="hidden" name="filterTitle" value="NepaliTimes" /> <input type="hidden" name="include" value="http://www.nepalitimes.com" /> <input id="search-button" src="/search.ico" value="Search" alt="Search" title="Search" type="image" /> 
 			</form>
 			<ul>
-				<li class="last"><a href="/contact.php">Contact us</a></li>
-				<li><a href="http://www.digitalhimalaya.com/projectteam/index.php">About us</a></li>
+				<li class="last"><a href="https://www.nepalitimes.com/contact/">Contact us</a></li>
+				<li><a href="https://www.nepalitimes.com/about-us/">About us</a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="container"> <a name="skip-content" id="skip-content"></a>
 		<ul id="nav-breadcrumb">
-			<li class="first"><a href="/"> Home </a></li>
-			<li><a href="/collections/">Collections</a></li>
-			<li><a href="/collections/journals/">Journals</a></li>
-			<li class="last">Nepali Times</li>
+			
+			<li class="last"><h1>Nepali Times</h1></li>
 		</ul>
-		<ul id="nav-primary">
-			<li><a href="/overview.php">Overview</a></li>
-			<li class="active"><a href="/collections/index.php">Collections</a>
-				<ul>
-					<li><a href="/collections/birdsofnepal/">Birds of Nepal</a></li>
-					<li><a href="/collections/nepalcensus/">Census of Nepal 2001</a></li>
-					<li><a href="/collections/haimendorf/">F&uuml;rer-Haimendorf Film Collection</a></li>
-					<li><a href="/collections/films/">Films</a></li>
-					<li><a href="/collections/journals/">Journals</a></li>
-					<li><a href="/collections/maps/">Maps</a></li>
-					<li><a href="/collections/music/">Music</a></li>
-					<li><a href="/collections/naga/">Naga Videodisc</a></li>
-					<li><a href="/collections/rarebooks/">Rare Books &amp; Manuscripts</a></li>
-					<li><a href="/collections/thakarchive/">Thak Archive</a></li>
-					<li><a href="/collections/thangmiarchive/">Thangmi Archive</a></li>
-					<li><a href="/collections/williamson/">Williamson Collection</a></li>
-					<li><a href="/collections/wutu/">Wutu Collection</a></li>
-				</ul>
+		
 			</li>
-			<li><a href="/technologies.php">Technologies</a></li>
-			<li><a href="/projectteam/index.php">Project Team</a></li>
-			<li><a href="/publications.php">Publications</a></li>
-			<li><a href="/support.php">Support</a></li>
-			<li><a href="/news.php">News</a></li>
-			<li><a href="/links.php">Links</a></li>
-			<li><a href="/search.php">Search</a></li>
-			<li><a href="/contactform.php">Register</a></li>
-			<li><a href="/contact.php">Contact Us</a></li>
-			<li><a href="/index.php">Home</a></li>
+			
 		</ul>
 		<div id="content">
 			<!--// END HEADER//-->
 			<div id="sub-brand">
-				<p class="section">Nepali Times</p>
+				<p class="section"><h2>Nepali Times Archives</h2></p>
 			</div>
 			<div id="content-primary">
 				<p>The
-					<em><a href="http://www.nepalitimes.com/" onclick="pageFun.openWin('http://www.nepalitimes.com/'); return false;">Nepali Times</a> </em>is a weekly newspaper published by Himalmedia Private Limited. Digital Himalaya is delighted to host the PDF archive of this important English-language weekly. The <i>Photojournal 2008 </i>(13 MB) can be downloaded by clicking <a href="http://himalaya.socanth.cam.ac.uk/collections/journals/nepalitimes/pdf/NT_PhotoJournal_2008.pdf" onclick="pageFun.openWin('http://himalaya.socanth.cam.ac.uk/collections/journals/nepalitimes/pdf/NT_PhotoJournal_2008.pdf'); return false;">here.</a>
-					On account of the compression format we have used for the PDF files, we
-					advise that you install the most recent version of Adobe Acrobat which
-					can be downloaded by clicking <a href="http://www.adobe.com/products/acrobat/readstep2.html" onclick="pageFun.openWin('http://www.adobe.com/products/acrobat/readstep2.html'); return false;">here</a>.
+					<em><a href="http://www.nepalitimes.com/" onclick="pageFun.openWin('http://www.nepalitimes.com/'); return false;">Nepali Times</a> </em>is a weekly newspaper published by Himalmedia Private Limited. The <i>Photojournal 2008 </i>(13 MB) can be downloaded by clicking <a href="http://himalaya.socanth.cam.ac.uk/collections/journals/nepalitimes/pdf/NT_PhotoJournal_2008.pdf" onclick="pageFun.openWin('http://himalaya.socanth.cam.ac.uk/collections/journals/nepalitimes/pdf/NT_PhotoJournal_2008.pdf'); return false;">here.</a>
+					
 				</p>
 				<table class="magazinelisting">
 					<tbody>
@@ -3427,14 +3394,7 @@
 			</div>
 			<!--// START FOOTER //-->
 		</div>
-		<ul id="site-info">
-			<li class="copy">Last update: 24 July, 2016.
-				All material on this site is available for non-commercial use under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons licence</a>.</li>
-			<li class="link last"><a href="/privacy.php">privacy policy</a></li>
-			<li class="link"><a href="/terms.php">terms</a></li>
-			<li class="link"><a href="http://validator.w3.org/check?uri=referer" onclick="pageFun.openWin('http://validator.w3.org/check?uri=referer'); return false;"><img src="/graphics/valid-xhtml10.png" height="31" width="88" alt="Valid HTML" /></a></li>
-			<li class="link"><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" onclick="pageFun.openWin('http://creativecommons.org/licenses/by-nc-nd/3.0/'); return false;"><img src="/graphics/cc.jpg" alt="Creative Commons" /></a></li>
-		</ul>
+		
 	</div>
 	<script type="text/javascript" src="/global/js/gen.js"></script>
 	<script type="text/javascript">
