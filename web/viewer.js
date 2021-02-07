@@ -28,7 +28,7 @@
 'use strict';
 
 // var DEFAULT_URL = 'https://www.jianjunchen.com/papers/CORS-USESEC18.slides.pdf';
-var DEFAULT_URL = '(.*\.pdf)';
+//var DEFAULT_URL = '(.*\.pdf)';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;

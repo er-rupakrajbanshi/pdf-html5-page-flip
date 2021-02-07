@@ -393,6 +393,17 @@ http://sourceforge.net/adobe/cmap/wiki/License/
     <script src="turnjs4/lib/turn.min.js"></script>
     <script src="turnjs4/lib/zoom.min.js"></script>
     <script src="debugger.js"></script>
+    <script type="text/javascript">
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      var year=urlParams.get('year');
+      var issue_name = urlParams.get('issue_name');
+      var DEFAULT_URL = 'pdfs/'+year+"/"+issue_name;
+      console.log(DEFAULT_URL);
+        //var DEFAULT_URL = 'nt-789.pdf';
+    </script>
+<script src="viewer.js"></script>
+
     <script src="viewer.js"></script>
     <script src="magazine.js"></script>
       <script type="text/javascript">
